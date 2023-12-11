@@ -44,7 +44,7 @@ const Minting = () => {
       </div>
 
       {/* Minting Info */}
-      <div className="flex flex-col items-center md:flex-row w-full gap-12 px-12 pb-24">
+      <div className="flex flex-col items-center md:flex-row w-full gap-12 px-4 md:px-12 pb-24">
         {/* MINT INFO */}
         <div className="w-full md:w-1/2 mx-auto bg-slate-300 bg-opacity-10 text-white rounded-xl p-6">
           <div className="">
