@@ -20,10 +20,10 @@ function App() {
               </>
             }
           ></Route>
-          <Route path="/nftviewer" element={<NftViewer />} />
+          {/* <Route path="/nftviewer" element={<NftViewer />} /> */}
           <Route path="/mint" element={<Minting />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );

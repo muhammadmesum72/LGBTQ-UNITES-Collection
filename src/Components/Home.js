@@ -12,13 +12,20 @@ const Home = () => {
             className="rounded-xl my-6 md:my-6 w-full"
           />
         </div>
-        <div className="leading-10 space-y-9 text-lg  xl:space-y-12">
-          <h1 className="text-center md:text-2xl xl:text-3xl text-secondary">We Love, Unite for Love</h1>
+        <div className="leading-10 space-y-9 text-sm md:text-xl  xl:space-y-12">
+          <h1 className="text-center text-xl md:text-2xl xl:text-3xl text-secondary">
+            We Love, Unite for Love
+          </h1>
           <p>
-            Unites NFT aims to biggest love base in base community, direct for
-            the LGBT empowerment and promoting love.
+            Embark on a visual journey celebrating love, diversity, and unity
+            with our LGBQT NFT collection. Each digital artwork in this
+            collection is a vibrant testament to the kaleidoscope of love,
+            embracing every color of the rainbow. From the soft whispers of
+            romance to the bold declarations of passion, these NFTs are crafted
+            to resonate with the essence of unity, inviting individuals from all
+            walks of life to join hands in a celebration of love that knows no
+            boundaries.
           </p>
-          <p>What is your love language.?</p>
         </div>
       </div>
     </div>

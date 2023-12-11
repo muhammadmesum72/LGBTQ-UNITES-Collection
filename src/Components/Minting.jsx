@@ -22,11 +22,11 @@ const Minting = () => {
         </div>
         {/* Details */}
         <div className="text-center pb-6 space-y-4">
-          <div className="text-3xl">
+          <div className="text-xl md:text-3xl">
             <span className="font-bold text-secondary">Total Supply: </span>
             <span>10000</span>
           </div>
-          <div className="text-3xl">
+          <div className="text-xl md:text-3xl">
             <span className="font-bold text-secondary">Current Price: </span>
             <span>200 SOL</span>
           </div>
@@ -36,7 +36,7 @@ const Minting = () => {
             <button onClick={increaseMintValue} className='p-1 text-3xl font-bold text-black rounded-xl px-6 bg-gray-400 hover:bg-secondary transition-all ease-in-out active:text-2xl '>+</button>
           </div>
           <div>
-            <button className="px-12 py-3 bg-primary hover:text-2xl transition-all ease-in-out font-bold uppercase rounded-lg text-xl">
+            <button className="px-12 py-3 bg-primary hover:text-2xl transition-all ease-in-out font-bold uppercase rounded-xl text-xl">
               Mint Unites
             </button>
           </div>
@@ -48,13 +48,13 @@ const Minting = () => {
         {/* MINT INFO */}
         <div className="w-full md:w-1/2 mx-auto bg-slate-300 bg-opacity-10 text-white rounded-xl p-6">
           <div className="">
-            <h5 className="mb-4 text-2xl text-primary">
+            <h5 className="mb-4 text-md md:text-2xl text-primary">
               {" "}
               <b>MINTING INFO:</b>
             </h5>
           </div>
           <div className="">
-            <table className="w-full text-lg">
+            <table className="w-full text-xs md:text-lg">
               <tr className="border-t border-opacity-50">
                 <td className="py-3 pl-3">
                   <p className="font-semibold ">Mint Price</p>

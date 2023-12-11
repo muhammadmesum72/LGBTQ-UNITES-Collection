@@ -9,11 +9,11 @@ export const navLinks = [
     path: "/mint",
     id: 2,
   },
-  {
-    name: "NFT viewer",
-    path: "/nftviewer",
-    id: 4,
-  },
+  // {
+  //   name: "NFT viewer",
+  //   path: "/nftviewer",
+  //   id: 4,
+  // },
 ];
 
 export const socialLinks = [
