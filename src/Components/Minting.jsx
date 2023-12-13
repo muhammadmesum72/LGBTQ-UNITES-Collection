@@ -14,7 +14,7 @@ const Minting = () => {
     }
   }
   return (
-    <div className='pt-32'>
+    <div className=''>
         <div className="flex flex-col items-center justify-center gap-12">
         {/* nft */}
         <div className="">
