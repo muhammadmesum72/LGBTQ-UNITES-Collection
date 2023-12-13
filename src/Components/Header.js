@@ -5,6 +5,7 @@ import {
   FaCross,
   FaDiscord,
   FaDoorClosed,
+  FaGlobe,
   FaTwitter,
 } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
@@ -36,7 +37,7 @@ const Header = () => {
 
         <div className="hidden md:flex  gap-12 items-center justify-between text-sm">
           <ul className="inline-flex items-center gap-6 lg:gap-12  uppercase">
-            {navLinks.map((link) => (
+            {/* {navLinks.map((link) => (
               <li key={link.id} className="hover:text-secondary transition ease-in-out">
                 <Link
                   className={link.path === path ? "text-secondary" : undefined}
@@ -45,7 +46,12 @@ const Header = () => {
                   {link.name}
                 </Link>
               </li>
-            ))}
+            ))} */}
+            <li>
+              <a href="" >
+                <FaGlobe className="text-3xl hover:text-indigo-600 transition ease-in-out" />
+              </a>
+            </li>
             <li>
               <a href="https://www.discord.com" target="_blank">
                 <FaDiscord className="text-3xl hover:text-indigo-600 transition ease-in-out" />

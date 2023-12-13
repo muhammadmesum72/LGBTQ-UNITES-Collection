@@ -17,11 +17,12 @@ function App() {
             element={
               <>
                 <Home />
+                <Minting />
               </>
             }
           ></Route>
           {/* <Route path="/nftviewer" element={<NftViewer />} /> */}
-          <Route path="/mint" element={<Minting />} />
+          {/* <Route path="/mint" element={<Minting />} /> */}
         </Routes>
         {/* <Footer /> */}
       </Router>
